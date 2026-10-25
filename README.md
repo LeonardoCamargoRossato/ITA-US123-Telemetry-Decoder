@@ -55,12 +55,11 @@ npm run dev
 - **Portal CE-235 — código-fonte:** https://github.com/LeonardoCamargoRossato/CE235-Sistemas-Tempo-Real
 - **Issue oficial / Subsprint #70:** https://github.com/Projeto-SPRB-TR-BD/Projeto-SPRB-TR-BD/issues/70
 
+## Portfólio
+
+**Portfólio técnico pessoal:** https://leonardocamargorossato.github.io/LCR-SolutionsArchitecture-IA-Quantum/#/
+
 ## Autor
 
 **Leonardo Camargo Rossato**  
 Arquiteto de Soluções · Doutorando no ITA
-
-Para conhecer meus outros projetos, pesquisa e atuação profissional:
-
-**Site pessoal / Portfólio:**  
-https://leonardocamargorossato.github.io/LCR-SolutionsArchitecture-IA-Quantum/#/
