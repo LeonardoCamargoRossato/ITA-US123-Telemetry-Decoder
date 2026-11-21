@@ -1,6 +1,6 @@
 export default function Footer(){
   return <footer className="site-footer">
-    <img src={`${import.meta.env.BASE_URL}assets/ITA_logo.png`} alt="Logo do ITA" />
+    <img src={`${import.meta.env.BASE_URL}assets/SVG/marcas/ita-logo.svg`} alt="Logo do ITA" />
     <div className="footer-project">
       <strong>Instituto Tecnológico de Aeronáutica — ITA</strong>
       <span>CE-235 — Sistemas Embarcados de Tempo Real</span>
