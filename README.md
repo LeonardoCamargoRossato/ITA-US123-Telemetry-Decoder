@@ -6,7 +6,7 @@ O projeto implementa uma prova de conceito para o fluxo **Time 1 → recepção 
 
 ## Visão geral
 
-A aplicação foi construída em **React + Vite + TypeScript** e utiliza um conjunto de **180 pacotes simulados** armazenados em `public/data/telemetry_mock.jsonl`.
+A aplicação foi construída em **React + Vite + TypeScript** e utiliza um conjunto de **180 pacotes simulados** armazenados em `code/public/data/telemetry_mock.jsonl`.
 
 O demonstrador:
 
@@ -14,7 +14,7 @@ O demonstrador:
 - executa parsing dos dados;
 - verifica sequência e faixas esperadas;
 - apresenta os resultados para inspeção;
-- mantém uma implementação C independente em `public/c-algorithms`;
+- mantém uma implementação C independente em `code/public/c-algorithms`;
 - separa a camada de I/O UDP do núcleo de processamento, servindo como referência para futura integração com **ANSYS SCADE / imported operators**.
 
 > Este projeto é um demonstrador acadêmico e não afirma certificação ou validação pelo ANSYS SCADE.
@@ -36,7 +36,8 @@ https://leonardocamargorossato.github.io/US123-Telemetry-Decoder/
 ## Executar localmente
 
 ```bash
-npm install
+cd code
+npm ci
 npm run dev
 ```
 
@@ -63,3 +64,5 @@ npm run dev
 
 **Leonardo Camargo Rossato**  
 Arquiteto de Soluções · Doutorando no ITA
+
+A aplicação está em [`code/`](code/) e a documentação publicável em [`documentation/public/`](documentation/public/).

@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+
+# Arquivos locais e gerados
+.agents/
+.env
+.env.*
+!.env.example
+*.log
+*.pem
+*.key
+*.zip
+*.tsbuildinfo
+coverage/
+test-results/
+playwright-report/
