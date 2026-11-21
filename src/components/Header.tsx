@@ -3,7 +3,7 @@ export default function Header({page,setPage}:P){
   return <header className="site-header">
     <div className="header-inner">
       <div className="brand">
-        <img className="ita-logo" src={`${import.meta.env.BASE_URL}assets/ITA_logo.png`} alt="Instituto Tecnológico de Aeronáutica" />
+        <img className="ita-logo" src={`${import.meta.env.BASE_URL}assets/SVG/marcas/ita-logo.svg`} alt="Instituto Tecnológico de Aeronáutica" />
         <div><b>US123 — Telemetry Decoder</b><small>SPRB-TR/BD • Sistemas de Tempo Real</small></div>
       </div>
       <nav aria-label="Navegação principal">
